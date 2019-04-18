@@ -1,0 +1,65 @@
+import org.junit.Test;
+
+import java.security.Timestamp;
+
+import static org.junit.Assert.*;
+
+//Testing created by C Ashby Tampa, FL 2019
+
+public class TransactionTest {
+
+    @Test
+    public void getTimestamp() throws exception {
+        Timestamp Timestamp = new Timestamp(localDateTime.now());
+        assertEquals(Timestamp, localDateTime.now().getTimestamp);
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType DEPOSIT = new TransactionType (DEPOSIT);
+        assertEquals(DEPOSIT, DEPOSIT.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType WITHDRAWAL = new TransactionType (WITHDRAWAL);
+        assertEquals(WITHDRAWAL, WITHDRAWAL.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType INTEREST = new TransactionType (INTEREST);
+        assertEquals(INTEREST, INTEREST.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType CHECK = new TransactionType (CHECK);
+        assertEquals(CHECK, CHECK.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType FEE = new TransactionType (FEE);
+        assertEquals(FEE, FEE.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType PENALTY = new TransactionType (PENALTY);
+        assertEquals(PENALTY, PENALTY.getType());
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType ADJUSTMENT = new TransactionType (ADJUSTMENT);
+        assertEquals(ADJUSTMENT, ADJUSTMENT.getType());
+    }
+
+    @Test
+    public void getAmount() throws exception {
+        double Amount;
+        assertNotNull( Amount);
+    }
+
+}
